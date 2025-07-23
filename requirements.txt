@@ -1,3 +1,4 @@
+python-dotenv
 pandas
 numpy
 pymongo
@@ -12,4 +13,4 @@ uvicorn
 python-multipart
 
 
-##-e .
+## -e .
