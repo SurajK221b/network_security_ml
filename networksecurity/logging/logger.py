@@ -5,7 +5,10 @@ from datetime import datetime
 
 LOG_FILE=f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
 
-logs_path = os.path.join(os.getcwd(), 'logs')
+# Get the directory where this file is located (networksecurity/logging)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Go up one level to networksecurity directory and create logs folder there
+logs_path = os.path.join(os.path.dirname(current_dir), 'logs')
 
 os.makedirs(logs_path, exist_ok=True)
 
