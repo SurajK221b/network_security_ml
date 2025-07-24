@@ -1,0 +1,7 @@
+[ 2025-07-24 13:03:16,844 ] 59 networksecurity.logging - INFO - Starting data extraction and MongoDB insertion process
+[ 2025-07-24 13:03:16,844 ] 64 networksecurity.logging - INFO - File path: Network_Data\phisindfgData.csv
+[ 2025-07-24 13:03:16,844 ] 65 networksecurity.logging - INFO - Database: NetworkSecurity
+[ 2025-07-24 13:03:16,844 ] 66 networksecurity.logging - INFO - Collection: NetworkData
+[ 2025-07-24 13:03:16,844 ] 29 networksecurity.logging - INFO - Attempting to read CSV file: Network_Data\phisindfgData.csv
+[ 2025-07-24 13:03:16,846 ] 36 networksecurity.logging - ERROR - Error in csv_to_json_convertor: [Errno 2] No such file or directory: 'Network_Data\\phisindfgData.csv'
+[ 2025-07-24 13:03:16,846 ] 75 networksecurity.logging - ERROR - Error in main execution: Error occured in python script name [E:\Git Repo\network_security_ml\networksecurity\push_data.py] line number [30] error message [[Errno 2] No such file or directory: 'Network_Data\\phisindfgData.csv']
